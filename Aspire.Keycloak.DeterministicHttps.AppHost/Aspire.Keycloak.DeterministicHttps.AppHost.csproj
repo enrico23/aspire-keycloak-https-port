@@ -1,0 +1,16 @@
+<Project Sdk="Aspire.AppHost.Sdk/13.1.0">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <UserSecretsId>7b352c0a-f978-4a03-b49a-b2cfca122e5a</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Aspire.Keycloak.DeterministicHttps.ApiService\Aspire.Keycloak.DeterministicHttps.ApiService.csproj" />
+    <ProjectReference Include="..\Aspire.Keycloak.DeterministicHttps.Web\Aspire.Keycloak.DeterministicHttps.Web.csproj" />
+  </ItemGroup>
+
+</Project>
