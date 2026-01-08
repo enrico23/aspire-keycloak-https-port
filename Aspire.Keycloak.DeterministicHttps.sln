@@ -9,9 +9,20 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aspire.Keycloak.Determinist
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aspire.Keycloak.DeterministicHttps.ApiService", "Aspire.Keycloak.DeterministicHttps.ApiService\Aspire.Keycloak.DeterministicHttps.ApiService.csproj", "{8236BF2E-88A9-4EF5-AFF9-FEA057259457}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aspire.Keycloak.DeterministicHttps.Web", "Aspire.Keycloak.DeterministicHttps.Web\Aspire.Keycloak.DeterministicHttps.Web.csproj", "{7217134C-6F2D-4984-8C8E-551EB61CA2D6}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aspire.Keycloak.DeterministicHttps.Extensions", "Aspire.Keycloak.DeterministicHttps.Extensions\Aspire.Keycloak.DeterministicHttps.Extensions.csproj", "{317F7CF0-AB4F-4BF2-80E6-5516E689F9F2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{829D87E2-34BF-4039-937A-2DF484A2FD1F}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".github", ".github", "{9D1768D1-76A2-477B-885B-6D6B1BB81E20}"
+	ProjectSection(SolutionItems) = preProject
+		.github\PULL_REQUEST_TEMPLATE.md = .github\PULL_REQUEST_TEMPLATE.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "workflows", "workflows", "{F4A6044B-339D-479F-A290-4CB6BD8B7486}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,10 +42,6 @@ Global
 		{8236BF2E-88A9-4EF5-AFF9-FEA057259457}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8236BF2E-88A9-4EF5-AFF9-FEA057259457}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8236BF2E-88A9-4EF5-AFF9-FEA057259457}.Release|Any CPU.Build.0 = Release|Any CPU
-		{7217134C-6F2D-4984-8C8E-551EB61CA2D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7217134C-6F2D-4984-8C8E-551EB61CA2D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7217134C-6F2D-4984-8C8E-551EB61CA2D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7217134C-6F2D-4984-8C8E-551EB61CA2D6}.Release|Any CPU.Build.0 = Release|Any CPU
 		{317F7CF0-AB4F-4BF2-80E6-5516E689F9F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{317F7CF0-AB4F-4BF2-80E6-5516E689F9F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{317F7CF0-AB4F-4BF2-80E6-5516E689F9F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -42,6 +49,10 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9D1768D1-76A2-477B-885B-6D6B1BB81E20} = {829D87E2-34BF-4039-937A-2DF484A2FD1F}
+		{F4A6044B-339D-479F-A290-4CB6BD8B7486} = {9D1768D1-76A2-477B-885B-6D6B1BB81E20}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {23404977-85DF-446B-B7B6-5E6A25223FE5}
