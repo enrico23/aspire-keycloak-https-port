@@ -1,4 +1,4 @@
-<Project Sdk="Aspire.AppHost.Sdk/13.1.0">
+﻿<Project Sdk="Aspire.AppHost.Sdk/13.1.0">
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
@@ -9,7 +9,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Aspire.Keycloak.DeterministicHttps.ApiService\Aspire.Keycloak.DeterministicHttps.ApiService.csproj" />
+    <ProjectReference Include="..\Aspire.Keycloak.DeterministicHttps.ApiService\Aspire.Keycloak.DeterministicHttps.ApiService.csproj"  />
+    <ProjectReference Include="..\Aspire.Keycloak.DeterministicHttps.Extensions\Aspire.Keycloak.DeterministicHttps.Extensions.csproj" 
+                      IsAspireProjectResource="false"/>
   </ItemGroup>
 
 </Project>
